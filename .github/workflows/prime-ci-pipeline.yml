@@ -41,7 +41,7 @@ jobs:
 
       - name: Run Python Application
         run: |
-          python prime_number.py
+          python src/prime_number.py
 
       - name: Build Docker Image
         run: |
